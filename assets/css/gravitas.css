@@ -1,9 +1,3 @@
-/**
-* Template Name: Amoeba - v2.0.0
-* Template URL: https://bootstrapmade.com/free-one-page-bootstrap-template-amoeba/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
 /*--------------------------------------------------------------
 # General
@@ -28,17 +22,6 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 
 
 
-/*--------------------------------------------------------------
-# letter 
---------------------------------------------------------------*/
-
-#card{
-  @import "stylecard.css"
-}
-
-/*--------------------------------------------------------------
-# end of letter
---------------------------------------------------------------*/
 
 
 /*--------------------------------------------------------------
@@ -140,7 +123,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   display: block;
   position: relative;
   color: #c3aed6;
-  padding: 10px 15px;
+  padding: 10px 10px;
   transition: 0.3s;
   font-size: 14px;
   font-family: "Open Sans", sans-serif;
@@ -172,7 +155,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 .nav-menu .drop-down li {
-  min-width: 180px;
+  min-width: 170px;
   position: relative;
 }
 
@@ -196,7 +179,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 
 .nav-menu .drop-down .drop-down ul {
   top: 0;
-  left: calc(100% - 30px);
+  left: calc(100% - 100px);
 }
 
 .nav-menu .drop-down .drop-down:hover > ul {
@@ -335,14 +318,12 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 75vh;
-  background: url("https://i.ibb.co/ZdzZc8r/hero-fepsi.jpg") top center;
+  height: 75%;
+  background: url("../img/hero_fepsi.jpg") top center;
   background-size: cover;
   position: relative;
   margin-bottom: -80px;
 }
-
-
 
 #hero:before {
   content: "";
@@ -926,3 +907,389 @@ section {
   font-size: 13px;
   color: #c3aed6;
 }
+
+
+
+
+
+.feature-grid {
+    position: relative;
+}
+
+    .feature-grid:after {
+        clear: both;
+        content: '';
+        display: block;
+    }
+
+    .feature-grid .feature {
+        display: inline-block;
+        float: left;
+        margin-bottom: 3em;
+        width: 50%;
+    }
+
+        .feature-grid .feature .content {
+            width: 60%;
+        }
+
+        .feature-grid .feature .image {
+            width: 30%;
+        }
+
+            .feature-grid .feature .image img {
+                display: inline;
+                max-width: 100%;
+            }
+
+        .feature-grid .feature:nth-child(odd) .content, .feature-grid .feature:nth-child(odd) .image {
+            float: right;
+            margin-right: 5%;
+            text-align: right;
+        }
+
+        .feature-grid .feature:nth-child(even) .content, .feature-grid .feature:nth-child(even) .image {
+            float: left;
+            margin-left: 5%;
+            text-align: left;
+        }
+
+    @media screen and (max-width: 1280px) {
+
+        .feature-grid .feature {
+            margin-bottom: 2em;
+        }
+
+    }
+
+    @media screen and (max-width: 980px) {
+
+        .feature-grid .feature {
+            display: block;
+            width: 100%;
+        }
+
+            .feature-grid .feature .content {
+                width: 65%;
+            }
+
+            .feature-grid .feature .image {
+                margin-left: 0 !important;
+                margin-right: 0 !important;
+            }
+
+    }
+
+    @media screen and (max-width: 736px) {
+
+        .feature-grid .feature {
+            margin-bottom: 1em;
+        }
+
+    }
+
+    @media screen and (max-width: 480px) {
+
+        .feature-grid .feature .content,
+        .feature-grid .feature .image {
+            display: block;
+            margin-left: 0 !important;
+            margin-right: 0 !important;
+            text-align: center !important;
+            width: 100%;
+        }
+
+        .feature-grid .feature .image {
+            margin-bottom: 1em;
+        }
+
+    }
+
+
+    .image {
+		border-radius: 4px;
+		border: 0;
+		display: inline-block;
+		position: relative;
+	}
+
+		.image img {
+			border-radius: 4px;
+			display: block;
+		}
+
+		.image.left, .image.right {
+			max-width: 40%;
+		}
+
+			.image.left img, .image.right img {
+				width: 100%;
+			}
+
+		.image.left {
+			float: left;
+			padding: 0 1.5em 1em 0;
+			top: 0.25em;
+		}
+
+		.image.right {
+			float: right;
+			padding: 0 0 1em 1.5em;
+			top: 0.25em;
+		}
+
+		.image.fit {
+			display: block;
+			margin: 0 0 2em 0;
+			width: 100%;
+		}
+
+			.image.fit img {
+				width: 100%;
+			}
+
+		.image.rounded {
+			border-radius: 100%;
+		}
+
+			.image.rounded img {
+				border: solid 0.5em rgba(144, 144, 144, 0.25);
+				border-radius: 100%;
+			}
+
+		.image.captioned {
+			border-radius: 0;
+			margin-bottom: 4em;
+		}
+
+			.image.captioned img {
+				border-radius: 0;
+			}
+
+			.image.captioned h3 {
+				background-color: #fff;
+				box-shadow: 0px 0.0375em 0.125em 0px rgba(0, 0, 0, 0.15);
+				display: block;
+				padding: 2em 1em;
+			}
+
+			@media screen and (max-width: 736px) {
+
+				.image.captioned {
+					margin-bottom: 2em;
+				}
+
+					.image.captioned h3 {
+						padding: 1em;
+					}
+
+			}
+
+		.image.main {
+			display: block;
+			margin: 0 0 3em 0;
+			width: 100%;
+		}
+
+			.image.main img {
+				width: 100%;
+            }
+            
+
+
+
+            .feature .image {
+                width: 48%;
+                float: left;
+            }
+        
+            .feature .content {
+                width: 52%;
+                float: left;
+            }
+        
+            .feature:after {
+                content: '';
+                display: block;
+                clear: both;
+            }
+
+section.special, article.special, header.special {
+		text-align: center;
+	}
+
+	header p {
+		margin: 0 0 1.5em 0;
+		position: relative;
+		text-transform: uppercase;
+	}
+
+	header h2 + p {
+		font-size: 1.25em;
+		margin-top: -1em;
+		line-height: 1.85em;
+	}
+
+	header h3 + p {
+		font-size: 1.1em;
+		margin-top: -0.8em;
+		line-height: 1.5em;
+	}
+
+	header h4 + p,
+	header h5 + p,
+	header h6 + p {
+		font-size: 0.9em;
+		margin-top: -0.6em;
+		line-height: 1.5em;
+	}
+
+	header.major {
+		margin-bottom: 4em;
+	}
+
+		header.major h2 {
+			font-size: 2.5em;
+		}
+
+	header.narrow {
+		max-width: 60%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	@media screen and (max-width: 1280px) {
+
+		header.narrow {
+			max-width: 75%;
+		}
+
+	}
+
+	@media screen and (max-width: 980px) {
+
+		header.narrow {
+			max-width: 100%;
+		}
+
+		header.major {
+			margin-bottom: 2em;
+		}
+
+			header.major h2 {
+				font-size: 2em;
+			}
+
+	}
+
+	@media screen and (max-width: 736px) {
+
+		header.major h2 {
+			font-size: 1.5em;
+		}
+
+		header.major p {
+			font-size: 1em;
+		}
+
+	}
+
+	header p {
+		color: #25383B;
+	}
+    
+    
+    .feature2 {
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+		-moz-align-items: center;
+		-webkit-align-items: center;
+		-ms-align-items: center;
+		align-items: center;
+		margin-bottom: 6em;
+	}
+
+		.feature2:last-child {
+			margin-bottom: 2em;
+		}
+
+		.feature2.left2 {
+			-moz-flex-direction: row;
+			-webkit-flex-direction: row;
+			-ms-flex-direction: row;
+			flex-direction: row;
+		}
+
+		.feature2.right2 {
+			-moz-flex-direction: row-reverse;
+			-webkit-flex-direction: row-reverse;
+			-ms-flex-direction: row-reverse;
+			flex-direction: row-reverse;
+		}
+
+		.feature2 .image2 {
+			width: 48%;
+		}
+
+			.feature2 .image2 img {
+				max-width: 100%;
+			}
+
+		.feature2 .content2 {
+			padding: 2em 3em 0.1em 3em;
+			width: 52%;
+		}
+
+		@media screen and (max-width: 1280px) {
+
+			.feature2 {
+				margin-bottom: 4em;
+			}
+
+				.feature2 .content2 {
+					padding: 1em 2em 0.1em 2em;
+				}
+
+		}
+
+		@media screen and (max-width: 980px) {
+
+			.feature2.left2, .feature2.right2 {
+				-moz-flex-direction: column;
+				-webkit-flex-direction: column;
+				-ms-flex-direction: column;
+				flex-direction: column;
+			}
+
+			.feature2 .image2 {
+				width: 100%;
+			}
+
+				.feature2 .image2 img {
+					width: 100%;
+				}
+
+			.feature2 .content2 {
+				padding: 2em 2em 0.1em 2em;
+				width: 100%;
+			}
+
+		}
+
+		@media screen and (max-width: 736px) {
+
+			.feature2 {
+				margin-bottom: 2em;
+			}
+
+				.feature2 .content2 {
+					padding: 2em 1em 0.1em 1em;
+				}
+
+		}
+
+	.feature2 {
+		background-color: rgba(144, 144, 144, 0.075);
+	}

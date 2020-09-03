@@ -50,7 +50,7 @@
           <!-- <li><a href="#services">Projects</a></li> -->
           <li class="drop-down"><a href="">Projects</a>
             <ul>
-              <li class="drop-down"><a href="#">Ullas</a>
+              <li class="drop-down"><a href="#ullas">Ullas</a>
                 <ul>
                   <li><a href="#">Birthday Campaign</a></li>
                   <li><a href="#">Project Harita</a></li>
@@ -67,11 +67,46 @@
               <li class="drop-down"><a href="#">GLL</a>
               <ul>
                 <li><a href="#">Curriculum</a>
+                <li><a href="#">Leadership labs</a>
               </ul>
               </li>
             </ul>
           </li> 
-          <li><a href="#portfolio">Innitiatives</a></li>
+          <li class="drop-down"><a href="#initiatives">Innitiatives</a>
+            <ul>
+              <li><a href="#">Kritagya</a></li>
+              <li><a href="#">Kritagya 2.0</a></li>
+              <li><a href="#">Vivaraan</a></li>
+              <li><a href="#">Khwaab</a></li>
+              <li><a href="#">Here For You (Latest Updates)</a></li>
+            </ul>
+          </li>
+
+          <li class="drop-down"><a href="#events">Events</a>
+            <ul>
+              <li><a href="#">Talent Fiesta</a></li>
+              <li><a href="#">Celebtalks</a></li>
+              <li><a href="#">Inside Out</a></li>
+              <li><a href="#">Talk Real</a></li>
+            </ul>
+          </li>
+
+          <li class="drop-down"><a href="#riviera">Riviera</a>
+            <ul>
+              <li><a href="#">Agnee</a></li>
+              <li><a href="#">Happiness Stall</a></li>
+            </ul>
+          </li>
+
+          <li class="drop-down"><a href="gravitas.html">Gravitas</a>
+            <ul>
+              <li><a href="gravitas.html">Pitch Perfect</a></li>
+              <li><a href="gravitas.html">Socio White Hack</a></li>
+              <li><a href="gravitas.html">Smart India Transformation</a></li>
+              <li><a href="gravitas.html">Start-a-thon</a></li>
+            </ul>
+          </li>
+
           <li><a href="#team">Team</a></li>
           <li><a href="#contact">Contact Us</a></li>
           <li><a href="#map">Find us</a></li>
@@ -89,7 +124,7 @@
     <div class="hero-container">
       <h1>Welcome to FEPSI</h1>
       <h2>Forum For Empowering People Through Social Innovation And Entertainment</h2>
-      <a href="#about" class="btn-get-started scrollto">Learn More</a>
+      <a href="#learn" class="btn-get-started scrollto">Learn More</a>
     </div>
   </section><!-- #hero -->
 
@@ -99,21 +134,20 @@
     <section id="about" class="about">
       <div class="container">
 
+      
         <div class="section-title">
-          <h2>About Us</h2>
+          <h1 style="font-size:400%">About Us</h1>
         </div>
 
+
         <div class="row">
-          <div class="col-lg-6 order-1 order-lg-2">
-            <img src="" class="img-fluid" alt="">
-          </div>
-          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1">
-            <h3>FEPSI is not just working as co-member</h3>
+          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1" ><br>
+            <h3><b>FEPSI is not just working as co-member</b></h3><br>
             <p class="font-italic">
               
             </p>
             
-            <p>
+            <p style="font-size: 120%;">
               Forum for Empowering People through Social Innovation and entertainment, 
               VIT is an NGO well known for its activities in and around Vellore and is 
               known to all as FEPSI-VIT.It is a very famous NGO and boasts of extreme 
@@ -124,6 +158,13 @@
                 impetus all along.
             </p>
           </div>
+
+
+          <div class="col-lg-6 order-1 order-lg-2">
+            <img src="assets/img/picture.png" class="img-fluid" alt="">
+          </div>
+
+
         </div>
 
       </div>
@@ -442,36 +483,45 @@
           </div>
 
           <div class="col-lg-5 col-md-12">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-              <div class="form-group">
-                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                <div class="validate"></div>
-              </div>
-              <div class="form-group">
-                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-                <div class="validate"></div>
-              </div>
-              <div class="form-group">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                <div class="validate"></div>
-              </div>
-              <div class="form-group">
-                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-                <div class="validate"></div>
-              </div>
-              <div class="mb-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit"  >Send Message</button></div>
-            </form>
+          
+
+
+
+<form action="https://formspree.io/mlepykzg" method="POST" class="php-email-form">
+  <div class="form-group">
+    <input type="email" class="form-control" name="_replyto" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+    <div class="validate"></div>
+  </div>
+   <div class="form-group">
+      <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+      <div class="validate"></div>
+    </div>
+
+  <!-- your other form fields go here -->
+
+  <div class="mb-3">
+      <div class="text-center">
+      <button type="submit" onclick="reply()" >Send Message</button>
+  </div>
+  
+</form>
+<script>
+  function reply(){
+    alert("Thankyou for your response!!");
+  }
+</script>
+
+<script>
+
+</script>
           </div>
 
         </div>
 
       </div>
-    </section><!-- End Contact Us Section -->
+    </section>
+    
+    <!-- End Contact Us Section -->
 
     <!-- ======= Map Section ======= -->
     <section class="map" id="map">
