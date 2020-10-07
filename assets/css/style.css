@@ -704,6 +704,8 @@ section {
   box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
   padding: 30px 20px;
   background: #fff;
+  border-bottom: 5px solid #512b58;
+  border-radius: 5px;
 }
 
 .team .member img {
@@ -869,10 +871,12 @@ section {
   padding: 10px 24px;
   color: #fff;
   transition: 0.4s;
+  border-radius: 7px;
 }
 
 .contact .php-email-form button[type="submit"]:hover {
   background: #754177;
+  border-radius: 7px;
 }
 
 @-webkit-keyframes animate-loading {
