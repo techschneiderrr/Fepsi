@@ -1238,7 +1238,7 @@ section.special, article.special, header.special {
 			}
 
 		.feature2 .content2 {
-			padding: 2em 3em 0.1em 3em;
+			padding: 0.6em 3em 0.1em 3em;
 			width: 52%;
 		}
 
@@ -1249,7 +1249,7 @@ section.special, article.special, header.special {
 			}
 
 				.feature2 .content2 {
-					padding: 1em 2em 0.1em 2em;
+					padding: 0.6em 2em 0.1em 2em;
 				}
 
 		}
