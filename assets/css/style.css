@@ -339,7 +339,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 #hero:before {
   content: "";
   background: #d8d3cd;
-  opacity: 0.75;
+  opacity: 0.50;
   position: absolute;
   bottom: 0;
   top: 0;
