@@ -55,10 +55,10 @@ html, body {
 
 .timeline-content {
   position: relative;
-  width: 45%;
+  width: 40%;
   padding: 10px 30px;
   border-radius: 4px;
-  background: #f5f5f5;
+  background: #353535;
   box-shadow: 0 20px 25px -15px rgba(0, 0, 0, 0.3);
 }
 .timeline-content::after {
@@ -113,14 +113,17 @@ section.a:hover, section.a:active, section.a:focus {
 }
 
 .timeline-item .timeline-img-header {
-  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url("https://picsum.photos/1000/800/?random") center center no-repeat;
-  background-size: cover;
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)),  center center no-repeat;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+ 
 }
 
 .timeline-img-header {
-  height: 200px;
-  position: relative;
-  margin-bottom: 20px;
+  height: 370px;
+    position: relative;
+ 
 }
 .timeline-img-header h2 {
   color: #FFFFFF;
