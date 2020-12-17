@@ -67,19 +67,19 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 # Header
 --------------------------------------------------------------*/
 #header {
-  height: 80px;
+  height: 60px;
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  padding: 20px 0;
+  padding: 10px 0;
   background: #512b58;
 }
 
-#header.header-scrolled {
+/* #header.header-scrolled {
   background: #512b58;
   height: 60px;
   padding: 10px 0;
-}
+} */
 
 #header .logo h1 {
   font-size: 30px;
@@ -99,6 +99,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   padding: 0;
   margin: 0;
   max-height: 40px;
+  
 }
 
 @media (max-width: 768px) {
@@ -282,6 +283,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   position: fixed;
   right: 15px;
   top: 15px;
+  vertical-align: middle;
   z-index: 9998;
   border: 0;
   background: none;
