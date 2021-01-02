@@ -4,4 +4,4 @@
 # Sample images :
 
 <br>
-<img src="https://github.com/techschneiderrr/Fepsi/blob/master/assets/img/readme_imgs/1.jpg" width="500">
+<img src="https://github.com/techschneiderrr/Fepsi/blob/master/assets/img/readme_imgs/1.jpg" width="450">
