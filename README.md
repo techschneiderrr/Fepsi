@@ -3,4 +3,4 @@
 
 # Sample images :
 
-(https://github.com/techschneiderrr/Fepsi/blob/master/assets/img/readme_imgs/1.jpg)
+![Google Analytics data screenshot 1](https://github.com/techschneiderrr/Fepsi/blob/master/assets/img/readme_imgs/1.jpg)
