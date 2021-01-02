@@ -3,6 +3,5 @@
 
 # Sample images :
 
-![Google Analytics data screenshot 1](https://github.com/techschneiderrr/Fepsi/blob/master/assets/img/readme_imgs/1.jpg){:height="24px" width="48px"}
-
-
+<br>
+<img src="https://github.com/techschneiderrr/Fepsi/blob/master/assets/img/readme_imgs/1.jpg" width="100">
