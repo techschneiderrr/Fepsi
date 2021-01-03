@@ -1,5 +1,5 @@
-# Fepsi 
-# This website is developed for an NGO.
+# F.E.P.S.I Official Website  
+### This website is developed for a VIT Vellore based NGO, namely FEPSI.
 
 #### Promo video link : https://github.com/techschneiderrr/Fepsi/raw/master/assets/img/readme_imgs/Render%201ji45-1.mp4
 #### Website link : https://fepsivit.in/
