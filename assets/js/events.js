@@ -14,7 +14,7 @@ $(function(){
 	    easing: 'ease-in-out',
 	    duration: 800,
 	  });
-Manav deep 
+Manav de
   } else {
   	
   	sr.reveal('.js--fadeInLeft', {
