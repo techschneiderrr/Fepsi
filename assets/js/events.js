@@ -13,7 +13,7 @@ $(function(){
 	    distance: '300px',
 	    easing: 'ease-in-out',
 	    duration: 800,
-	  });fd
+	  });
 
   } else {
   	
