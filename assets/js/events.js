@@ -14,7 +14,7 @@ $(function(){
 	    easing: 'ease-in-out',
 	    duration: 800,
 	  });fdcvb
-xcv cxvx
+xcv cx
   } else {
   	
   	sr.reveal('.js--fadeInLeft', {
