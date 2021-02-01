@@ -14,7 +14,7 @@ $(function(){
 	    easing: 'ease-in-out',
 	    duration: 800,
 	  });fdcvb
-xcv cxvxcvcxvvccxhttps://meet.googl
+xcv cxvxcvcxvvccxhttps:
   } else {
   	
   	sr.reveal('.js--fadeInLeft', {
