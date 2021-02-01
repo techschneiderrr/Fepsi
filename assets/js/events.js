@@ -14,7 +14,7 @@ $(function(){
 	    easing: 'ease-in-out',
 	    duration: 800,
 	  });
-xcv b
+xcv bfxchttps://meet.google.com/daq-rrcp-uswx
   } else {
   	
   	sr.reveal('.js--fadeInLeft', {
