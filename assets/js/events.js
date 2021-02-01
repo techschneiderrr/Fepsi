@@ -13,8 +13,8 @@ $(function(){
 	    distance: '300px',
 	    easing: 'ease-in-out',
 	    duration: 800,
-	  });
-
+	  });fdcvb
+xcv 
   } else {
   	
   	sr.reveal('.js--fadeInLeft', {
